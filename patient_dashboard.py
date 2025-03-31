@@ -9,10 +9,10 @@ st.title('Streamlit Web Application Sample')
 dfDM = pd.read_csv(r"SDTM_sample/dm.csv")
 
 # AE domainのimport
-dfAE = pd.read_csv(r""SDTM_sample/ae.csv")
+dfAE = pd.read_csv(r"SDTM_sample/ae.csv")
 
 # VS domainのimport
-dfVS = pd.read_csv(r""SDTM_sample/vs.csv")
+dfVS = pd.read_csv(r"SDTM_sample/vs.csv")
 
 
 
