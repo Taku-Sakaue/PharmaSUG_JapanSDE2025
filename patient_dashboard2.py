@@ -6,13 +6,14 @@ st.set_page_config(layout="wide")
 st.title('Streamlit Web Application Sample')
 
 # DM domainのimport
-dfDM = pd.read_csv(r"C:\Users\165639\OneDrive - CHUGAI PHARMACEUTICAL CO.,LTD\デスクトップ\PharmaSUG_data\dm.csv")
+dfDM = pd.read_csv(r"SDTM_sample/dm.csv")
 
 # AE domainのimport
-dfAE = pd.read_csv(r"C:\Users\165639\OneDrive - CHUGAI PHARMACEUTICAL CO.,LTD\デスクトップ\PharmaSUG_data\ae.csv")
+dfAE = pd.read_csv(r"SDTM_sample/ae.csv")
 
 # VS domainのimport
-dfVS = pd.read_csv(r"C:\Users\165639\OneDrive - CHUGAI PHARMACEUTICAL CO.,LTD\デスクトップ\PharmaSUG_data\vs.csv")
+dfVS = pd.read_csv(r"SDTM_sample/vs.csv")
+
 
 
 
