@@ -64,3 +64,30 @@ st.file_uploader("Upload your file")
 #st.markdown('---')
 #st.markdown('#### - Take picture')
 #st.camera_input("Take a picture")
+
+
+st.markdown('---')
+st.markdown('#### - クルクル')
+st.code('''
+with st.spinner(text="考え中"):
+    time.sleep(3)
+    st.success("Done")
+''', language='python')
+if(st.button('クルクル')):
+	with st.spinner(text="考え中"):
+		time.sleep(3)
+		st.success("Done")
+
+
+st.markdown('---')
+st.markdown('#### - progress bar')
+st.code('''
+pbar = st.progress(50)
+time.sleep(3)
+pbar.progress(100)
+''', language='python')
+
+if(st.button('progress bar')):
+	pbar = st.progress(50)
+	time.sleep(3)
+	pbar.progress(100)
